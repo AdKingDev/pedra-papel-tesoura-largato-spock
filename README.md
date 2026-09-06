@@ -57,7 +57,7 @@ Durante o desenvolvimento deste projeto, pratiquei conceitos como:
 
 Você pode acessar o projeto através do link abaixo:
 
-**[Acessar projeto](https://pedra-papel-tesoura-largato-spock.vercel.app/S)**
+**[Acessar projeto](https://pedra-papel-tesoura-largato-spock.vercel.app/)**
 
 ## 📚 Objetivo do projeto
 
