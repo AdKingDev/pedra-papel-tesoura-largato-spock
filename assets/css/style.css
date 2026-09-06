@@ -84,16 +84,17 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-    color: rgb(189, 189, 189);
+    color: rgb(255, 208, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 footer>p>a {
     text-decoration: none;
-    color: rgb(189, 189, 189);
+    color: rgb(255, 251, 0);
 }
 
 footer>p>a:hover {
     cursor: pointer;
-    color: brown;
+    color: rgb(165, 132, 42);
     text-decoration: underline;
 }
