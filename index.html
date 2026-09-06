@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel, Tesoura, Largato, Spock</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pedra, Papel, Tesoura, Lagarto, Spock</h1>
+            <h3>Regras</h3>
+            <ul>
+                <li>Pedra vence Tesoura e Lagarto</li>
+                <li>Papel vence Pedra e Spock</li>
+                <li>Tesoura vence Papel e Lagarto</li>
+                <li>Lagarto vence Papel e Spock</li>
+                <li>Spock vence Tesoura e Pedra</li>
+            </ul>
+        </header>
+
+        <main>
+            <h2>Opções do Jogador</h2>
+            <div class="opcoes">
+                <button class="opcao" value="✊">&#x270A;</button>
+                <button class="opcao" value="✋">&#x270B;</button>
+                <button class="opcao" value="✌️">&#x270C;</button>
+                <button class="opcao" value="🦎">&#x1F98E;</button>
+                <button class="opcao" value="🖖">&#x1F596;</button>
+            </div>
+
+            <div class="resultado">
+                <p class="escolhasJogadores"></p>
+                <p class="frase"></p>
+                <p class="placar">Jogador: 0 | CPU: 0 | Empate: 0</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por <a href="#">Adriano Júnio</a></p>
+        </footer>
+    </div>
+    
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
