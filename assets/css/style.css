@@ -46,6 +46,9 @@ header > h1 {
 
 .regras {
     font-size: 12px;
+}
+
+.regras > h3, .regras > ul > li {
     font-family: "Rubik", sans-serif;
 }
 
