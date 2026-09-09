@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('../images/background.jpg') rgb(51, 50, 50) center / cover no-repeat;
+    background:  linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) url('../images/background.jpg') center / cover no-repeat;
     flex-direction: column;
     display: flex;
     min-height: 100vh;
@@ -30,13 +30,19 @@ header {
     align-items: center;
 }
 
-header>h1 {
+header > h1 {
     text-align: center;
     padding: 15px;
     font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
-main>h2 {
+.regras {
+    font-size: 15px;
+}
+
+main > h2 {
     text-align: center;
     margin: 20px;
 }
@@ -48,7 +54,7 @@ main>h2 {
 }
 
 .opcao {
-    font-size: 40px;
+    font-size: 50px;
     border: none;
     background-color: transparent;
 }
