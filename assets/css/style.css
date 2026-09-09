@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    background: linear-gradient(rgba(250, 250, 249, 0.836), rgba(131, 131, 128, 0.514)), url('../images/logo.jpeg') center / cover no-repeat;
+    background: linear-gradient(rgba(250, 250, 249, 0.9), rgba(131, 131, 128, 0.9)), url('../images/logo.jpeg') center / cover no-repeat;
     margin: 20px auto;
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
