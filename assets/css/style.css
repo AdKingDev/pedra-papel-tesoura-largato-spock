@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 }
 
 body {
+    font-family: 'Fredoka', sans-serif;
     background:  linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('../images/background.jpg') center / cover no-repeat;
     flex-direction: column;
     display: flex;
@@ -31,6 +34,8 @@ header {
 }
 
 header > h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
     text-align: center;
     padding: 15px;
     font-size: 30px;
@@ -39,7 +44,7 @@ header > h1 {
 }
 
 .regras {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 main > h2 {
